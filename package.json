@@ -1,0 +1,16 @@
+{
+  "name": "svelte-parcel-template",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.4",
+    "parcel-plugin-svelte": "4.0.4",
+    "svelte": "3.0.0"
+  },
+  "browserslist": [
+    "last 2 Firefox versions"
+  ]
+}
